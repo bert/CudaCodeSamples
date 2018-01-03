@@ -1,18 +1,18 @@
 /*!
- * \file main.cu
+ * \file add2array.cu
  *
  * \brief Example code from https://devblogs.nvidia.com/parallelforall/even-easier-introduction-cuda/
  *
  * Compile it with nvcc, the CUDA C++ compiler:
  *
- *    nvcc main.cu -o test
+ *    nvcc add2array.cu -o add2array
  *
  * Run with:
- *    ./test
+ *    ./add2array
  *
  * Profile with:
  *
- *    nvprof ./test
+ *    nvprof ./add2array
 
 
 #include <iostream>
