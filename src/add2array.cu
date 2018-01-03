@@ -23,7 +23,7 @@
 
 
 /*!
- * \brief Kernel function to add the elements of two arrays.
+ * \brief Kernel function to add the elements of two arrays (GPU).
  *
  * \param[in] n number of elements.
  * \param[in] x array X.
@@ -37,6 +37,9 @@ add (int n, float *x, float *y)
 }
 
 
+/*!
+ * \brief Main function (CPU).
+ */
 int
 main (void)
 {
