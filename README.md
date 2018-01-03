@@ -1,5 +1,5 @@
 # CudaCodeSamples
-Experiments with the CUDA Toolkit (NVIDIA Accelerated Computing)
+My experiments with the CUDA Toolkit (NVIDIA Accelerated Computing)
 
 # Copyrights.
 Copyrights to original authors and licenses as mentioned in the source files.
