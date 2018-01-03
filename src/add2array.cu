@@ -1,7 +1,9 @@
 /*!
  * \file add2array.cu
  *
- * \brief Example code from https://devblogs.nvidia.com/parallelforall/even-easier-introduction-cuda/
+ * \brief Add two arrays of float.
+ *
+ * Example code from https://devblogs.nvidia.com/parallelforall/even-easier-introduction-cuda/
  *
  * Compile it with nvcc, the CUDA C++ compiler:
  *
@@ -13,6 +15,7 @@
  * Profile with:
  *
  *    nvprof ./add2array
+ */
 
 
 #include <iostream>
@@ -22,9 +25,9 @@
 /*!
  * \brief Kernel function to add the elements of two arrays.
  *
- * \param[in] \c n number of elements.
- * \param[in] \c x array X.
- * \param[in] \c y array Y
+ * \param[in] n number of elements.
+ * \param[in] x array X.
+ * \param[in] y array Y
  */
 __global__ void
 add (int n, float *x, float *y)
