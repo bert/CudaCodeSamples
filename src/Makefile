@@ -1,10 +1,10 @@
-all:	test
+add2array.o:	add2array.cu
+	nvcc -c add2array.cu -o add2array.o
 
-test:	main.o
-  nvcc main.o -o test
+add2array:	add2array.o
+	nvcc add2array.o -o add2array
 
-main.o:	main.cu
-  nvcc -c main.cu -o main.o
+all:	add2array
 
 clean:
-  rm -f *.o test
+	rm -f *.o add2array
