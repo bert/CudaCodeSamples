@@ -1,7 +1,7 @@
 /*!
  * \file main.cu
  *
- * Example code from https://devblogs.nvidia.com/parallelforall/even-easier-introduction-cuda/
+ * \brief Example code from https://devblogs.nvidia.com/parallelforall/even-easier-introduction-cuda/
  *
  * Compile it with nvcc, the CUDA C++ compiler:
  *
@@ -19,7 +19,13 @@
 #include <math.h>
 
 
-/* Kernel function to add the elements of two arrays. */
+/*!
+ * \brief Kernel function to add the elements of two arrays.
+ *
+ * \param[in] \c n number of elements.
+ * \param[in] \c x array X.
+ * \param[in] \c y array Y
+ */
 __global__ void
 add (int n, float *x, float *y)
 {
